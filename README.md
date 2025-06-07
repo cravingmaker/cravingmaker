@@ -1,4 +1,4 @@
-## Hello there, this is my git repository 👋
+## Hello there, this is my Git repository 👋
 
 <p>I'm Craving Maker, and here's a glimpse into who I am:<br>
   <ul>
