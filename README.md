@@ -1,4 +1,4 @@
-## Hello there, this is my Git repository 👋
+## Hello there 👋
 
 I'm cravingmaker, and here's a glimpse into who I am:
 
@@ -13,8 +13,6 @@ I'm cravingmaker, and here's a glimpse into who I am:
   a highly opinionated, modern, and elegant Prettier configuration.
 - [**@cravingmaker/eslint-config**](https://github.com/cravingmaker/eslint-config):
   a highly opinionated, modern, and elegant ESLint configuration.
-- [**stylelint-config**](https://github.com/cravingmaker/stylelint-config): a
-  Stylelint configuration in the same spirit, in its early days.
 - [**homebrew-tap**](https://github.com/cravingmaker/homebrew-tap): personal
   Homebrew casks for macOS.
 
@@ -27,3 +25,7 @@ are good places to start.
 If my projects save you time, consider
 [sponsoring my work](https://github.com/sponsors/cravingmaker). Sponsors at $10 a
 month and up are listed here.
+
+<!-- sponsors:start -->
+_No sponsors yet. Be the first!_
+<!-- sponsors:end -->

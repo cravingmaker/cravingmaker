@@ -1,0 +1,40 @@
+name: Update sponsors
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily, 07:00 Asia/Jakarta
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: update-sponsors
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'cravingmaker/cravingmaker'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Update the sponsors section
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/update_sponsors.py
+      - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: update sponsors" -- README.md
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
