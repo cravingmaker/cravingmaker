@@ -9,10 +9,10 @@ I'm cravingmaker, and here's a glimpse into who I am:
 
 ### What I'm building 🛠️
 
-- [**@cravingmaker/eslint-config**](https://github.com/cravingmaker/eslint-config):
-  a highly opinionated, modern, and elegant ESLint configuration.
 - [**@cravingmaker/prettier-config**](https://github.com/cravingmaker/prettier-config):
   a highly opinionated, modern, and elegant Prettier configuration.
+- [**@cravingmaker/eslint-config**](https://github.com/cravingmaker/eslint-config):
+  a highly opinionated, modern, and elegant ESLint configuration.
 - [**stylelint-config**](https://github.com/cravingmaker/stylelint-config): a
   Stylelint configuration in the same spirit, in its early days.
 - [**homebrew-tap**](https://github.com/cravingmaker/homebrew-tap): personal
