@@ -21,3 +21,9 @@ I'm cravingmaker, and here's a glimpse into who I am:
 Want to contribute? Each project's issue forms and the
 [contributing guide](https://github.com/cravingmaker/.github/blob/main/CONTRIBUTING.md)
 are good places to start.
+
+### Sponsors 💜
+
+If my projects save you time, consider
+[sponsoring my work](https://github.com/sponsors/cravingmaker). Sponsors at $10 a
+month and up are listed here.
